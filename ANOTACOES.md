@@ -767,7 +767,7 @@ await page.getByText('Bem-vindo').isVisible();
 
 ---
 
-### 2. Use `await expect()` para validar comportamento
+### 2. Use `await expect()` para validar comportamento:
 
 Sempre use `await` com `expect` e combine com `.toBeVisible()`, `.toHaveText()`,
 etc.
